@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Rosary School</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="56x56"
+      href="images/fav-icon/icon.png"
+    />
+    <!-- bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="css/owl.carousel.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- responsive CSS -->
+    <link
+      rel="stylesheet"
+      href="css/responsive.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- nivo-slider CSS -->
+    <link
+      rel="stylesheet"
+      href="css/nivo-slider.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
+    <!-- animated-text CSS -->
+    <link
+      rel="stylesheet"
+      href="css/animated-text.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- font-awesome CSS -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="fonts/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- font-flaticon CSS -->
+    <link
+      rel="stylesheet"
+      href="css/flaticon.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- theme-default CSS -->
+    <link
+      rel="stylesheet"
+      href="css/theme-default.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- meanmenu CSS -->
+    <link
+      rel="stylesheet"
+      href="css/meanmenu.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- transitions CSS -->
+    <link
+      rel="stylesheet"
+      href="css/owl.transitions.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- venobox CSS -->
+    <link
+      rel="stylesheet"
+      href="venobox/venobox.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- widget CSS -->
+    <link rel="stylesheet" href="css/widget.css" type="text/css" media="all" />
+    <!-- modernizr js -->
+    <script type="text/javascript" src="js/modernizr-3.5.0.min.js"></script>
+  </head>
+  <body>
+    <!-- <audio src="Jana_Gana_Mana_WIFT_India_Nationa.mp3" id="soundTour"></audio> -->
+
+    <div class="header_top_menu pt-2 pb-2 bg_color2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-8">
+            <div class="header_top_menu_address">
+              <div class="header_top_menu_address_inner">
+                <ul>
+                  <li>
+                    <a href="mailto:admin@rosaryeducation.com"
+                      ><i class="fa fa-envelope-o"></i
+                      >admin@rosaryeducation.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);"
+                      ><i class="fa fa-map-marker"></i> Camp, Pune, maharastra -
+                      411052</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:020 2613 4668"
+                      ><i class="fa fa-phone"></i>020 2613 4668</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="header_top_menu_icon">
+              <div class="header_top_menu_icon_inner">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">parent Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sticky-header" class="nav_manu">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <a
+              href="#"
+              class="menuBtn"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobile_sidebar"
+            >
+              <span class="lines"></span>
+            </a>
+            <div
+              class="offcanvas offcanvas-start mobile_sidebar"
+              tabindex="-1"
+              id="mobile_sidebar"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-body">
+                <div class="mobile_menu_links">
+                  <ul>
+                    <li>
+                      <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                      <a href="about_us.html" class="nav-link"> About Us </a>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="campus.html" class="nav-link"> Camp </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#campus"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+
+                      <div
+                        id="campus"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="viman-nagar.html" class="nav-link">
+                          VimanNagar
+                        </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#curriculum"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+                      <div
+                        id="curriculum"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="warje.html" class="nav-link"> Warje </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#activities01"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+                      <div
+                        id="activities01"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="salunkeVihar.html" class="nav-link">
+                          SalunkeVihar
+                        </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#activities03"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+                      <div
+                        id="activities03"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="" class="nav-link"> Admission </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#admission01"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          <i class="fa fa-angle-down"></i>
+                        </button>
+                      </div>
+                      <div
+                        id="admission01"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      >
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="admission_procedure.html"
+                              >Admission Procedure</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="https://docs.google.com/forms/d/e/1FAIpQLScwFhe1oZBla4_S8LPBns3Q2ykbXAymgiGgkjq502Qs88gGvw/viewform"
+                              target="_blank"
+                              >Application Form</a
+                            >
+                          </li>
+                          <li>
+                            <a href="admission_schudule.html"
+                              >Admission Schedule</a
+                            >
+                          </li>
+                          <li>
+                            <a href="school_timing.html">School Timing</a>
+                          </li>
+                          <li>
+                            <a href="guideline_making_payment.html"
+                              >Guideline Making Online Payment</a
+                            >
+                          </li>
+                          <li>
+                            <a href="eligibility_criteria.html"
+                              >Eligibility Criteria</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="" class="nav-link"> Gallery </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#admission02"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          <i class="fa fa-angle-down"></i>
+                        </button>
+                      </div>
+                      <div
+                        id="admission02"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      >
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="gallery.html" class="nav-link"
+                              >Image Gallery</a
+                            >
+                          </li>
+                          <li>
+                            <a href="video_gallery.html" class="nav-link"
+                              >video Gallery</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <a href="career.html" class="nav-link">Contact US</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="logo">
+              <a class="main_sticky" href="index.html">
+                <img src="./images/rosary/logo.png" alt="astute" />
+              </a>
+            </div>
+          </div>
+          <div class="col-auto">
+            <nav class="techno_menu">
+              <ul class="nav_scroll">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="about_us.html"> About Us </a>
+                </li>
+                <li>
+                  <a href="campus.html"> Camp </a>
+                </li>
+                <li>
+                  <a href="viman-nagar.html"> VimanNagar </a>
+                </li>
+                <li>
+                  <a href="warje.html"> Warje </a>
+                </li>
+                <li>
+                  <a href="salunkeVihar.html"> SalunkeVihar </a>
+                </li>
+                <li>
+                  <a href="">
+                    Admission
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="admission_procedure.html">Admission Procedure</a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScwFhe1oZBla4_S8LPBns3Q2ykbXAymgiGgkjq502Qs88gGvw/viewform"
+                        target="_blank"
+                        >Application Form</a
+                      >
+                    </li>
+                    <li>
+                      <a href="admission_schudule.html">Admission Schedule</a>
+                    </li>
+                    <li><a href="school_timing.html">School Timing</a></li>
+                    <li>
+                      <a href="guideline_making_payment.html"
+                        >Guideline Making Online Payment</a
+                      >
+                    </li>
+                    <li>
+                      <a href="eligibility_criteria.html"
+                        >Eligibility Criteria</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="">
+                    Gallery
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="gallery.html">Image Gallery</a>
+                    </li>
+                    <li>
+                      <a href="video_gallery.html">Video Gallery</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li>
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="blog.html">Blog</a>
+                </li> -->
+                <!-- <li><a href="career.html">Career</a></li> -->
+              </ul>
+              <div class="donate-btn-header">
+                <a class="dtbtn" href="enquiry.html">Contact Us</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="breatcome_area d-flex align-items-center"
+      style="background: url(images/slider/slider-10.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="breatcome_title">
+              <div class="breatcome_title_inner pb-2">
+                <h2>Blog</h2>
+              </div>
+              <div class="breatcome_content">
+                <ul>
+                  <li>
+                    <a href="index.html">Home</a>
+                    <i class="fa fa-angle-right"></i> <span>Enquiry Now</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BLOG AREA -->
+    <div class="blog_area blog-details-area pt-100 pb-100" id="blog">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="blog_details">
+                  <div class="blog_dtl_thumb">
+                    <img src="images/blog1.jpg" alt="" />
+                  </div>
+
+                  <div class="blog_dtl_content">
+                    <h2 class="pt-0 mt-0">
+                      Business contents insurance is a type of business
+                      insurance that can protect
+                    </h2>
+                    <!-- BLOG META -->
+                    <div class="techno-blog-meta">
+                      <div class="techno-blog-meta-left">
+                        <span><i class="fa fa-calendar"></i>10 Mar 2020 </span>
+                        <span
+                          ><i class="fa fa-comments-o"></i>20 Comments
+                        </span>
+                        <span><i class="fa fa-thumbs-up"></i>39 Like </span>
+                      </div>
+                    </div>
+                    <p>
+                      Lorem ipsum dolor sit amet consectet adipisie cing elit
+                      sed eiusmod tempor incididunt on labore et dolore. Ut enim
+                      ad minim veniam, quis nostrud exercitation ullamco laboris
+                      nisi ut aliquip ex ea commodo.
+                    </p>
+                    <p>
+                      Bccaecat cupidatat non proident, sunt in culpa qui officia
+                      deserunt mollit anim id est there laborum. Sed ut
+                      perspiciatis unde omnis iste natus error sit voluptatem
+                      accusantium ware doloremque laudantium, totam rem aperiam,
+                      eaque ipsa quae ab illo inventore veritatis et quasi
+                      architecto beatae vitae dicta sunt explicabo. Nemo enim
+                      ipsam voluptatem quia on voluptas sit aspernatur aut odit
+                      aut fugit, sed quia consequuntur magni dolores eos query
+                      ratione voluptatem sequi nesciunt. Neque porro quisquam
+                    </p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor dolor an incididunt ut labore et
+                      dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                      there exercitation ullamco laboris nisi ut aliquip ex ea
+                      commodo consequat. Duis aute irure poor dolor in
+                      reprehenderit in voluptate velit esse cillum
+                    </p>
+
+                    <div class="blog_dtl_thumb pt-3">
+                      <img src="images/blog2.jpg" alt="" />
+                    </div>
+                    <h3>A cleansing hot shower or bath</h3>
+                    <p>
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical on Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock, a Latin professor at thes
+                      Hampden-Sydney College in Virginia, looked up one of the
+                      more obscure Latin words, consectetur, from a Lorem Ipsum
+                      passage, and going through the cites
+                    </p>
+                    <blockquote>
+                      Richard McClintock, a Latin professor at thes
+                      Hampden-Sydney College in Virginia, looked up one of the
+                      more obscure Latin words, consectetur, from a Lorem Ipsum
+                      passage, and going through the cites dorem awesme loren
+                      very creative
+                      <p class="signatures"><span>Mr. Aleck Jonder</span></p>
+                    </blockquote>
+                    <div class="blog_dt_title mb-4">
+                      <h4>Setting the mood with incense</h4>
+                    </div>
+                    <p>
+                      Contrary to popular belief, Lorem Ipsum is not simply
+                      random text. It has roots in a piece of classical on Latin
+                      literature from 45 BC, making it over 2000 years old.
+                      Richard McClintock, a Latin professor at thes
+                      Hampden-Sydney College in Virginia, looked up one of the
+                      more obscure Latin words, consectetur, from a Lorem Ipsum
+                      passage, and going through the cites
+                    </p>
+
+                    <div class="blog_details_dtn_icon">
+                      <a href="#"><i class="fa fa-facebook"></i></a>
+                      <a href="#"><i class="fa fa-linkedin"></i></a>
+                      <a href="#"><i class="fa fa-twitter"></i></a>
+                      <a href="#"><i class="fa fa-instagram"></i></a>
+                      <a href="#"><i class="fa fa-pinterest"></i></a>
+                      <a href="#"><i class="fa fa-reddit"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-5 col-sm-12 col-xs-12 sidebar-right content-widget pdsr"
+          >
+            <div class="blog-left-side widget">
+              <div
+                id="em_recent_post_widget-6"
+                class="widget widget_recent_data"
+              >
+                <div class="single-widget-item">
+                  <h2 class="widget-title pb-0 mt-0">Other Posts</h2>
+                  <div class="recent-post-item">
+                    <div class="recent-post-image">
+                      <a href="#">
+                        <img
+                          width="100"
+                          height="80"
+                          src="images/recent1.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="recent-post-text">
+                      <h4>
+                        <a href="#"> 3 Ways to Transform Your Blog Into </a>
+                      </h4>
+                      <span class="rcomment">October 16, 2020</span>
+                    </div>
+                  </div>
+                  <div class="recent-post-item">
+                    <div class="recent-post-image">
+                      <a href="#">
+                        <img
+                          width="100"
+                          height="80"
+                          src="images/recent2.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="recent-post-text">
+                      <h4>
+                        <a href="#"> How Important Is Design To Business. </a>
+                      </h4>
+                      <span class="rcomment">October 16, 2020</span>
+                    </div>
+                  </div>
+                  <div class="recent-post-item">
+                    <div class="recent-post-image">
+                      <a href="#">
+                        <img
+                          width="100"
+                          height="80"
+                          src="images/recent3.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="recent-post-text">
+                      <h4>
+                        <a href="#">
+                          Your Small Business Web Design Solution.
+                        </a>
+                      </h4>
+                      <span class="rcomment">October 16, 2020</span>
+                    </div>
+                  </div>
+                  <div class="recent-post-item">
+                    <div class="recent-post-image">
+                      <a href="#">
+                        <img
+                          width="100"
+                          height="80"
+                          src="images/recent1.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="recent-post-text">
+                      <h4>
+                        <a href="#"> 3 Ways to Transform Your Blog Into </a>
+                      </h4>
+                      <span class="rcomment">October 16, 2020</span>
+                    </div>
+                  </div>
+                  <div class="recent-post-item">
+                    <div class="recent-post-image">
+                      <a href="#">
+                        <img
+                          width="100"
+                          height="80"
+                          src="images/recent2.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="recent-post-text">
+                      <h4>
+                        <a href="#"> How Important Is Design To Business. </a>
+                      </h4>
+                      <span class="rcomment">October 16, 2020</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BLOG_AREA END -->
+
+    <div
+      class="footer-middle pt-50"
+      style="background-image: url(images/call-bg.png)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="widget widgets-company-info">
+              <div class="footer-bottom-logo pb-10">
+                <img src="./images/rosary/logo.png" alt="" />
+              </div>
+              <div class="company-info-desc">
+                <p>
+                  62 years later continues to inspire thousands. We now offer
+                  across 4 campuses, the highest quality of education from
+                  pre-school to Junior college, in two Boards - SSC and ICSE.The
+                  Rosary Schools have always upheld the core value of
+                  challenging the odds and emerging a winner.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="widget widget-nav-menu ps-md-4">
+              <h4 class="widget-title pb-4">Quick Links</h4>
+              <div class="menu-quick-link-container ml-4">
+                <ul id="menu-quick-link" class="menu">
+                  <li>
+                    <a href="index.html"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about_us.html"> About Us </a>
+                  </li>
+                  <li>
+                    <a href="career.html"> Career </a>
+                  </li>
+
+                  <li>
+                    <a href="admission_procedure.html"> Admission </a>
+                  </li>
+                  <li>
+                    <a href="enquiry.html"> Contact Us </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="widget widgets-company-info">
+              <h3 class="widget-title pb-4">Contact Info.</h3>
+              <div class="footer-social-info">
+                <p>
+                  <span>Address :</span> No.14, 3, Dr Baba Saheb Ambedkar Rd,
+                  Camp, Pune, Maharashtra 411001
+                </p>
+              </div>
+              <div class="footer-social-info">
+                <p><span>Phone :</span>+91 902-1557-095</p>
+              </div>
+              <div class="footer-social-info">
+                <p><span>Email :</span>admin@rosaryeducation.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-bottom mt-50 pt-3 pb-1">
+          <div class="col-lg-6 col-md-6">
+            <div class="footer-bottom-content">
+              <div class="footer-bottom-content-copy">
+                <p>
+                  Copyright © 2022 Design &amp; Developed by Rosaryeducation
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="footer-bottom-right">
+              <div class="footer-bottom-right-text">
+                <a class="absod" href="rules_regulations.html"
+                  >RULES & REGULATIONS</a
+                >
+                <!-- <a href="#"> Terms & Conditions</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- jquery js -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script type="text/javascript" src="js/slick-animation.min.js"></script> -->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <!-- carousel js -->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <!-- counterup js -->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <!-- waypoints js -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!-- wow js -->
+    <script type="text/javascript" src="js/wow.js"></script>
+    <!-- imagesloaded js -->
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- venobox js -->
+    <script type="text/javascript" src="venobox/venobox.js"></script>
+    <!-- ajax mail js -->
+    <script type="text/javascript" src="js/ajax-mail.js"></script>
+    <!--  testimonial js -->
+    <script type="text/javascript" src="js/testimonial.js"></script>
+    <!--  animated-text js -->
+    <script type="text/javascript" src="js/animated-text.js"></script>
+    <!-- venobox min js -->
+    <script type="text/javascript" src="venobox/venobox.min.js"></script>
+    <!-- isotope js -->
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <!-- jquery nivo slider pack js -->
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <!-- jquery meanmenu js -->
+    <script type="text/javascript" src="js/jquery.meanmenu.js"></script>
+    <!-- jquery scrollup js -->
+    <script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+    <!-- theme js -->
+    <script type="text/javascript" src="js/theme.js"></script>
+    <!-- jquery js -->
+  </body>
+
+  <!-- Mirrored from html.dreamitsolution.net/techno/index-7.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 07 Apr 2022 14:56:24 GMT -->
+</html>

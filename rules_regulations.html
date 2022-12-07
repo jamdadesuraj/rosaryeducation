@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Rosary School</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="56x56"
+      href="images/fav-icon/icon.png"
+    />
+    <!-- bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="css/owl.carousel.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- responsive CSS -->
+    <link
+      rel="stylesheet"
+      href="css/responsive.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- nivo-slider CSS -->
+    <link
+      rel="stylesheet"
+      href="css/nivo-slider.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
+    <!-- animated-text CSS -->
+    <link
+      rel="stylesheet"
+      href="css/animated-text.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- font-awesome CSS -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="fonts/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- font-flaticon CSS -->
+    <link
+      rel="stylesheet"
+      href="css/flaticon.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- theme-default CSS -->
+    <link
+      rel="stylesheet"
+      href="css/theme-default.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- meanmenu CSS -->
+    <link
+      rel="stylesheet"
+      href="css/meanmenu.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- transitions CSS -->
+    <link
+      rel="stylesheet"
+      href="css/owl.transitions.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- venobox CSS -->
+    <link
+      rel="stylesheet"
+      href="venobox/venobox.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- widget CSS -->
+    <link rel="stylesheet" href="css/widget.css" type="text/css" media="all" />
+    <!-- modernizr js -->
+    <script type="text/javascript" src="js/modernizr-3.5.0.min.js"></script>
+  </head>
+  <body>
+    <!-- <audio src="Jana_Gana_Mana_WIFT_India_Nationa.mp3" id="soundTour"></audio> -->
+
+    <div class="header_top_menu pt-2 pb-2 bg_color2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-8">
+            <div class="header_top_menu_address">
+              <div class="header_top_menu_address_inner">
+                <ul>
+                  <li>
+                    <a href="mailto:admin@rosaryeducation.com"
+                      ><i class="fa fa-envelope-o"></i
+                      >admin@rosaryeducation.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);"
+                      ><i class="fa fa-map-marker"></i> Camp, Pune, maharastra -
+                      411052</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:020 2613 4668"
+                      ><i class="fa fa-phone"></i>020 2613 4668</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="header_top_menu_icon">
+              <div class="header_top_menu_icon_inner">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">parent Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sticky-header" class="nav_manu">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <a
+              href="#"
+              class="menuBtn"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobile_sidebar"
+            >
+              <span class="lines"></span>
+            </a>
+            <div
+              class="offcanvas offcanvas-start mobile_sidebar"
+              tabindex="-1"
+              id="mobile_sidebar"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-body">
+                <div class="mobile_menu_links">
+                  <ul>
+                    <li>
+                      <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                      <a href="about_us.html" class="nav-link"> About Us </a>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="campus.html" class="nav-link"> Camp </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#campus"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+
+                      <div
+                        id="campus"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="viman-nagar.html" class="nav-link">
+                          VimanNagar
+                        </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#curriculum"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+                      <div
+                        id="curriculum"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="warje.html" class="nav-link"> Warje </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#activities01"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+                      <div
+                        id="activities01"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="salunkeVihar.html" class="nav-link">
+                          SalunkeVihar
+                        </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#activities03"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+                      <div
+                        id="activities03"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="" class="nav-link"> Admission </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#admission01"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          <i class="fa fa-angle-down"></i>
+                        </button>
+                      </div>
+                      <div
+                        id="admission01"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      >
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="admission_procedure.html"
+                              >Admission Procedure</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="https://docs.google.com/forms/d/e/1FAIpQLScwFhe1oZBla4_S8LPBns3Q2ykbXAymgiGgkjq502Qs88gGvw/viewform"
+                              target="_blank"
+                              >Application Form</a
+                            >
+                          </li>
+                          <li>
+                            <a href="admission_schudule.html"
+                              >Admission Schedule</a
+                            >
+                          </li>
+                          <li>
+                            <a href="school_timing.html">School Timing</a>
+                          </li>
+                          <li>
+                            <a href="guideline_making_payment.html"
+                              >Guideline Making Online Payment</a
+                            >
+                          </li>
+                          <li>
+                            <a href="eligibility_criteria.html"
+                              >Eligibility Criteria</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="" class="nav-link"> Gallery </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#admission02"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          <i class="fa fa-angle-down"></i>
+                        </button>
+                      </div>
+                      <div
+                        id="admission02"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      >
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="gallery.html" class="nav-link"
+                              >Image Gallery</a
+                            >
+                          </li>
+                          <li>
+                            <a href="video_gallery.html" class="nav-link"
+                              >video Gallery</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <a href="career.html" class="nav-link">Contact US</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="logo">
+              <a class="main_sticky" href="index.html">
+                <img src="./images/rosary/logo.png" alt="astute" />
+              </a>
+            </div>
+          </div>
+          <div class="col-auto">
+            <nav class="techno_menu">
+              <ul class="nav_scroll">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="about_us.html"> About Us </a>
+                </li>
+                <li>
+                  <a href="campus.html"> Camp </a>
+                </li>
+                <li>
+                  <a href="viman-nagar.html"> VimanNagar </a>
+                </li>
+                <li>
+                  <a href="warje.html"> Warje </a>
+                </li>
+                <li>
+                  <a href="salunkeVihar.html"> SalunkeVihar </a>
+                </li>
+                <li>
+                  <a href="">
+                    Admission
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="admission_procedure.html">Admission Procedure</a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScwFhe1oZBla4_S8LPBns3Q2ykbXAymgiGgkjq502Qs88gGvw/viewform"
+                        target="_blank"
+                        >Application Form</a
+                      >
+                    </li>
+                    <li>
+                      <a href="admission_schudule.html">Admission Schedule</a>
+                    </li>
+                    <li><a href="school_timing.html">School Timing</a></li>
+                    <li>
+                      <a href="guideline_making_payment.html"
+                        >Guideline Making Online Payment</a
+                      >
+                    </li>
+                    <li>
+                      <a href="eligibility_criteria.html"
+                        >Eligibility Criteria</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="">
+                    Gallery
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="gallery.html">Image Gallery</a>
+                    </li>
+                    <li>
+                      <a href="video_gallery.html">Video Gallery</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li>
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="blog.html">Blog</a>
+                </li> -->
+                <!-- <li><a href="career.html">Career</a></li> -->
+              </ul>
+              <div class="donate-btn-header">
+                <a class="dtbtn" href="enquiry.html">Contact Us</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="breatcome_area d-flex align-items-center"
+      style="background: url(images/slider/slider-10.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="breatcome_title">
+              <div class="breatcome_title_inner pb-2">
+                <h2>RULES & REGULATIONS</h2>
+              </div>
+              <div class="breatcome_content">
+                <ul>
+                  <li>
+                    <a href="index.html">Home</a>
+                    <i class="fa fa-angle-right"></i> <a href="#"> About Us</a>
+                    <i class="fa fa-angle-right"></i>
+                    <span>RULES & REGULATIONS</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-65 pb-65">
+      <div class="container editor_container">
+        <div class="section_title text_center mb-50 mt-0">
+          <div class="section_main_title">
+            <h1>Best School in <span>pune</span></h1>
+          </div>
+          <div class="em_bar">
+            <div class="em_bar_bg"></div>
+          </div>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Only recommended school uniform of the correct pattern and colors
+              MUST BE WORN.
+            </li>
+            <li>
+              Orders for school uniform is must be placed in the first week of
+              March.
+            </li>
+          </ul>
+        </div>
+        <h6>Leave</h6>
+        <ul>
+          <li>
+            To apply for leave of absence, the leave application in the
+            Calendar, duly completed by the guardian, one line at a time, should
+            be presented to the Principal as soon as the need for leave is felt.
+          </li>
+          <li>
+            If the Calendar is with the teacher, a leave letter should be
+            submitted.
+          </li>
+          <li>The Principal has the right to deny or cancel leave.</li>
+          <li>
+            No leave will be granted for weddings, festivals etc. or because the
+            parents have to go out of station.
+          </li>
+          <li>
+            Absence without leave is a grave offence deserving severe punishment
+            such as expulsion.
+          </li>
+          <li>
+            A medical certificate if asked for by the principal must be produced
+            from the schools certified doctor only.
+          </li>
+        </ul>
+        <div>
+          <h5 class="text-center p-5">Discipline:</h5>
+          <div>
+            <ul>
+              <li>
+                Strict regularity, implicit obedience, politeness and courtesy
+                in speech and conduct, smartness and cleanliness of dress and
+                person are rigidly insisted upon.
+              </li>
+              <li>
+                Objectionable conduct by a child or parent whether in or out of
+                the school is punishable with expulsion.
+              </li>
+              <li>
+                No book, periodical, calculator, mobile phone or any other
+                article, not approved by the Principal may be brought to school.
+              </li>
+              <li>
+                Any damage done in class or about the premises has to be made
+                good. The principal is the sole judge regarding the amount to be
+                paid.
+              </li>
+              <li>
+                Pupils should not leave their belongings in school and are
+                themselves responsible for their safe custody.
+              </li>
+              <li>
+                Pupils suffering from unpleasant or infectiousdiseases are not
+                permitted to attend school.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h5 class="text-center p-5">The Calendar::</h5>
+          <div>
+            <ul>
+              <li>
+                The Calendar must be brought to school daily and should be
+                maintained carefully.
+              </li>
+              <li>The pupil should write down daily assignments.</li>
+              <li>Guardians must countersign it in the space provided.</li>
+              <li>
+                The margin is reserved for the remarks of the principal and of
+                the teachers only.
+              </li>
+              <li>
+                If guardians wish to state anything, a separate letter is to be
+                written.
+              </li>
+              <li>
+                Whenever a pupil or guardian presents himself before the
+                Principal, the Calendar must be with him/her.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h5 class="text-center p-5">Guardians:</h5>
+          <div>
+            <ul>
+              <li>
+                Guardians should co-operate with the school by enabling their
+                wards to observe the rules and by insisting upon punctuality and
+                regularity in attending school and in studying at home.
+              </li>
+              <li>
+                Communication, if any, should be addressed to the principal, not
+                to the teachers. While writing to the principal, the pupil's
+                standard, division and roll number should invariably be
+                mentioned.
+              </li>
+              <li>
+                Guardians may not see their wards in school or meet the teachers
+                without the principal’s consent.
+              </li>
+              <li>
+                In the matters of interpretation of rules, the principal’s
+                decision is final. Guardians are reminded that, according to the
+                school code, they cannot dictate to the school authorities, but
+                the school authorities have the right to prescribe the
+                conditions for admitting children and for retaining them in
+                school.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h5 class="text-center p-5">FEES:</h5>
+          <div>
+            <ul>
+              <li>
+                The school management reserves the right to revive the fees
+                every academic year and the school is the final authority for
+                the charges of various products and services.
+              </li>
+              <li>
+                All rules and regulations that would be prescribed from time to
+                time have to be followed strictly by all students and parents,
+                failing which, the school management has complete authority to
+                expel the student from the school.
+              </li>
+              <li>
+                The parents have to reimburse the school, the cost of
+                educational material, co-curricular, extra-curricular
+                activities, school picnics, functions etc.
+              </li>
+              <li>
+                The fees are an annual fee payable by postdated cheque before
+                20st March every year.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <h5 class="text-center p-5">GUIDELINES FOR STUDENTS</h5>
+          <div>
+            <ul>
+              <li>Newly admitted children are on probation.</li>
+              <li>
+                Those who do not give satisfaction as regards:
+                <ul>
+                  <li>Regularity</li>
+                  <li>Cleanliness</li>
+                  <li>Conduct</li>
+                  <li>Studies</li>
+                  <li>Hygienic toilet habits, or</li>
+                  <li>Parental Co-operation will be asked to leave.</li>
+                </ul>
+              </li>
+              <li>School uniform to be ordered in the month of March.</li>
+              <li>No variation in cloth, color or pattern is permitted.</li>
+              <li>
+                Boys should wear shoes with laces, and girls with buckles.
+              </li>
+              <li>
+                If child falls sick the calendar should be immediately sent to
+                the Principal for getting the leave sanctioned. Every student
+                must be present on the last day before and the reopening day
+                after a vacation, otherwise their name will be removed.
+              </li>
+              <li>
+                The uniform should be clean and should be ironed daily. Socks
+                should be washed daily. Shoes should be polished daily. Finger
+                nails should be cut every week. Boy's hair to be cut short.
+                Girl's hair to be clean and neat.
+              </li>
+              <h6>
+                We at Rosary aim at the all-round development of our students.
+                Co-operation of the parents to develop the mental, physical,
+                moral and leadership qualities is essential. lt is mandatory
+                that a student participate in all activities planned by the
+                school.
+              </h6>
+              <li>
+                Individual and group activities are not only encouraged, but
+                insisted upon.
+              </li>
+              <li>
+                All students MUST participate in all activities, whether
+                individual or group.
+              </li>
+              <li>
+                Educational excursions are regularly organized twice a year and
+                are compulsory.
+              </li>
+              <li>
+                All students are trained and guided to appear for various tests
+                and evaluation examinations conducted by both Government and
+                Non-Government Organizations.
+              </li>
+              <li>
+                Appearance for such exams is not only encouraged but insisted
+                upon.
+              </li>
+              <li>
+                If the child suffers from any contagious diseases, it is the
+                duty of the parent to inform the school immediately.
+              </li>
+              <li>
+                If the child suffers from illnesses like asthma or fits, the
+                school should be kept informed and necessary medication should
+                be kept with the child. The name and the phone number of the
+                doctor treating the child should be informed to the school.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="footer-middle pt-50"
+      style="background-image: url(images/call-bg.png)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="widget widgets-company-info">
+              <div class="footer-bottom-logo pb-10">
+                <img src="./images/rosary/logo.png" alt="" />
+              </div>
+              <div class="company-info-desc">
+                <p>
+                  62 years later continues to inspire thousands. We now offer
+                  across 4 campuses, the highest quality of education from
+                  pre-school to Junior college, in two Boards - SSC and ICSE.The
+                  Rosary Schools have always upheld the core value of
+                  challenging the odds and emerging a winner.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="widget widget-nav-menu ps-md-4">
+              <h4 class="widget-title pb-4">Quick Links</h4>
+              <div class="menu-quick-link-container ml-4">
+                <ul id="menu-quick-link" class="menu">
+                  <li>
+                    <a href="index.html"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about_us.html"> About Us </a>
+                  </li>
+                  <li>
+                    <a href="career.html"> Career </a>
+                  </li>
+
+                  <li>
+                    <a href="admission_procedure.html"> Admission </a>
+                  </li>
+                  <li>
+                    <a href="enquiry.html"> Contact Us </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="widget widgets-company-info">
+              <h3 class="widget-title pb-4">Contact Info.</h3>
+              <div class="footer-social-info">
+                <p>
+                  <span>Address :</span> No.14, 3, Dr Baba Saheb Ambedkar Rd,
+                  Camp, Pune, Maharashtra 411001
+                </p>
+              </div>
+              <div class="footer-social-info">
+                <p><span>Phone :</span>+91 902-1557-095</p>
+              </div>
+              <div class="footer-social-info">
+                <p><span>Email :</span>admin@rosaryeducation.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-bottom mt-50 pt-3 pb-1">
+          <div class="col-lg-6 col-md-6">
+            <div class="footer-bottom-content">
+              <div class="footer-bottom-content-copy">
+                <p>
+                  Copyright © 2022 Design &amp; Developed by Rosaryeducation
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="footer-bottom-right">
+              <div class="footer-bottom-right-text">
+                <a class="absod" href="rules_regulations.html"
+                  >RULES & REGULATIONS</a
+                >
+                <!-- <a href="#"> Terms & Conditions</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jquery js -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script type="text/javascript" src="js/slick-animation.min.js"></script> -->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <!-- carousel js -->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <!-- counterup js -->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <!-- waypoints js -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!-- wow js -->
+    <script type="text/javascript" src="js/wow.js"></script>
+    <!-- imagesloaded js -->
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- venobox js -->
+    <script type="text/javascript" src="venobox/venobox.js"></script>
+    <!--  animated-text js -->
+    <script type="text/javascript" src="js/animated-text.js"></script>
+    <!-- venobox min js -->
+    <script type="text/javascript" src="venobox/venobox.min.js"></script>
+    <!-- isotope js -->
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <!-- jquery nivo slider pack js -->
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <!-- jquery meanmenu js -->
+    <script type="text/javascript" src="js/jquery.meanmenu.js"></script>
+    <!-- jquery scrollup js -->
+    <script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+    <!-- theme js -->
+    <script type="text/javascript" src="js/theme.js"></script>
+    <!-- jquery js -->
+  </body>
+</html>

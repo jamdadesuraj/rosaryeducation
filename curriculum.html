@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Rosary School</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="images/png"
+      sizes="56x56"
+      href="images/fav-icon/icon.png"
+    />
+    <!-- bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="css/bootstrap.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- carousel CSS -->
+    <link
+      rel="stylesheet"
+      href="css/owl.carousel.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- responsive CSS -->
+    <link
+      rel="stylesheet"
+      href="css/responsive.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- nivo-slider CSS -->
+    <link
+      rel="stylesheet"
+      href="css/nivo-slider.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css" type="text/css" media="all" />
+    <!-- animated-text CSS -->
+    <link
+      rel="stylesheet"
+      href="css/animated-text.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- font-awesome CSS -->
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="fonts/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- font-flaticon CSS -->
+    <link
+      rel="stylesheet"
+      href="css/flaticon.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- theme-default CSS -->
+    <link
+      rel="stylesheet"
+      href="css/theme-default.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- meanmenu CSS -->
+    <link
+      rel="stylesheet"
+      href="css/meanmenu.min.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- transitions CSS -->
+    <link
+      rel="stylesheet"
+      href="css/owl.transitions.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- venobox CSS -->
+    <link
+      rel="stylesheet"
+      href="venobox/venobox.css"
+      type="text/css"
+      media="all"
+    />
+    <!-- widget CSS -->
+    <link rel="stylesheet" href="css/widget.css" type="text/css" media="all" />
+    <!-- modernizr js -->
+    <script type="text/javascript" src="js/modernizr-3.5.0.min.js"></script>
+  </head>
+  <body>
+    <!-- <audio src="Jana_Gana_Mana_WIFT_India_Nationa.mp3" id="soundTour"></audio> -->
+
+    <div class="header_top_menu pt-2 pb-2 bg_color2">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-sm-8">
+            <div class="header_top_menu_address">
+              <div class="header_top_menu_address_inner">
+                <ul>
+                  <li>
+                    <a href="mailto:admin@rosaryeducation.com"
+                      ><i class="fa fa-envelope-o"></i
+                      >admin@rosaryeducation.com</a
+                    >
+                  </li>
+                  <li>
+                    <a href="javascript:void(0);"
+                      ><i class="fa fa-map-marker"></i> Camp, Pune, maharastra -
+                      411052</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:020 2613 4668"
+                      ><i class="fa fa-phone"></i>020 2613 4668</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-4">
+            <div class="header_top_menu_icon">
+              <div class="header_top_menu_icon_inner">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-instagram"></i></a>
+                  </li>
+
+                  <li>
+                    <a href="#"><i class="fa fa-youtube"></i></a>
+                  </li>
+                  <li>
+                    <a href="#">parent Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="sticky-header" class="nav_manu">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-auto">
+            <a
+              href="#"
+              class="menuBtn"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#mobile_sidebar"
+            >
+              <span class="lines"></span>
+            </a>
+            <div
+              class="offcanvas offcanvas-start mobile_sidebar"
+              tabindex="-1"
+              id="mobile_sidebar"
+              aria-labelledby="offcanvasExampleLabel"
+            >
+              <div class="offcanvas-body">
+                <div class="mobile_menu_links">
+                  <ul>
+                    <li>
+                      <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                      <a href="about_us.html" class="nav-link"> About Us </a>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="campus.html" class="nav-link"> Camp </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#campus"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+
+                      <div
+                        id="campus"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="viman-nagar.html" class="nav-link">
+                          VimanNagar
+                        </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#curriculum"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+                      <div
+                        id="curriculum"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="warje.html" class="nav-link"> Warje </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#activities01"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+                      <div
+                        id="activities01"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="salunkeVihar.html" class="nav-link">
+                          SalunkeVihar
+                        </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#activities03"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        ></button>
+                      </div>
+                      <div
+                        id="activities03"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      ></div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="" class="nav-link"> Admission </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#admission01"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          <i class="fa fa-angle-down"></i>
+                        </button>
+                      </div>
+                      <div
+                        id="admission01"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      >
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="admission_procedure.html"
+                              >Admission Procedure</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="https://docs.google.com/forms/d/e/1FAIpQLScwFhe1oZBla4_S8LPBns3Q2ykbXAymgiGgkjq502Qs88gGvw/viewform"
+                              target="_blank"
+                              >Application Form</a
+                            >
+                          </li>
+                          <li>
+                            <a href="admission_schudule.html"
+                              >Admission Schedule</a
+                            >
+                          </li>
+                          <li>
+                            <a href="school_timing.html">School Timing</a>
+                          </li>
+                          <li>
+                            <a href="guideline_making_payment.html"
+                              >Guideline Making Online Payment</a
+                            >
+                          </li>
+                          <li>
+                            <a href="eligibility_criteria.html"
+                              >Eligibility Criteria</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="link">
+                        <a href="" class="nav-link"> Gallery </a>
+                        <button
+                          data-bs-toggle="collapse"
+                          data-bs-target="#admission02"
+                          aria-expanded="false"
+                          aria-controls="collapseOne"
+                        >
+                          <i class="fa fa-angle-down"></i>
+                        </button>
+                      </div>
+                      <div
+                        id="admission02"
+                        class="accordion-collapse collapse"
+                        aria-labelledby="headingOne"
+                      >
+                        <ul class="sub-menu">
+                          <li>
+                            <a href="gallery.html" class="nav-link"
+                              >Image Gallery</a
+                            >
+                          </li>
+                          <li>
+                            <a href="video_gallery.html" class="nav-link"
+                              >video Gallery</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li>
+                      <a href="career.html" class="nav-link">Contact US</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="logo">
+              <a class="main_sticky" href="index.html">
+                <img src="./images/rosary/logo.png" alt="astute" />
+              </a>
+            </div>
+          </div>
+          <div class="col-auto">
+            <nav class="techno_menu">
+              <ul class="nav_scroll">
+                <li>
+                  <a href="index.html">Home</a>
+                </li>
+                <li>
+                  <a href="about_us.html"> About Us </a>
+                </li>
+                <li>
+                  <a href="campus.html"> Camp </a>
+                </li>
+                <li>
+                  <a href="viman-nagar.html"> VimanNagar </a>
+                </li>
+                <li>
+                  <a href="warje.html"> Warje </a>
+                </li>
+                <li>
+                  <a href="salunkeVihar.html"> SalunkeVihar </a>
+                </li>
+                <li>
+                  <a href="">
+                    Admission
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="admission_procedure.html">Admission Procedure</a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScwFhe1oZBla4_S8LPBns3Q2ykbXAymgiGgkjq502Qs88gGvw/viewform"
+                        target="_blank"
+                        >Application Form</a
+                      >
+                    </li>
+                    <li>
+                      <a href="admission_schudule.html">Admission Schedule</a>
+                    </li>
+                    <li><a href="school_timing.html">School Timing</a></li>
+                    <li>
+                      <a href="guideline_making_payment.html"
+                        >Guideline Making Online Payment</a
+                      >
+                    </li>
+                    <li>
+                      <a href="eligibility_criteria.html"
+                        >Eligibility Criteria</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="">
+                    Gallery
+                    <i class="fa fa-angle-down"></i>
+                  </a>
+                  <ul class="sub-menu">
+                    <li>
+                      <a href="gallery.html">Image Gallery</a>
+                    </li>
+                    <li>
+                      <a href="video_gallery.html">Video Gallery</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- <li>
+                  <a href="gallery.html">Gallery</a>
+                </li>
+                <li>
+                  <a href="blog.html">Blog</a>
+                </li> -->
+                <!-- <li><a href="career.html">Career</a></li> -->
+              </ul>
+              <div class="donate-btn-header">
+                <a class="dtbtn" href="enquiry.html">Contact Us</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="breatcome_area d-flex align-items-center"
+      style="background: url(images/slider/slider-10.jpg)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="breatcome_title">
+              <div class="breatcome_title_inner pb-2">
+                <h2>Curriculum</h2>
+              </div>
+              <div class="breatcome_content">
+                <ul>
+                  <li>
+                    <a href="index.html">Home</a>
+                    <i class="fa fa-angle-right"></i> <span>Curriculum</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-65">
+      <div class="container editor_container">
+        <div class="section_title text_center mb-50 mt-0">
+          <div class="section_main_title">
+            <h1>Explore our <span>Curriculum</span></h1>
+          </div>
+          <div class="em_bar">
+            <div class="em_bar_bg"></div>
+          </div>
+        </div>
+        <p>
+          Lorem ipsum dolor sit amet. Est animi autem et consequatur explicabo
+          ut quod Quis id quaerat voluptatibus aut dolore amet et quia labore.
+          Id animi nesciunt ut molestiae doloremque vel fuga sapiente est
+          repudiandae nobis hic similique voluptas est aperiam corporis est
+          nihil dolores. Aut consectetur consequatur et consequatur adipisci et
+          aliquam error qui laudantium dolor sed quidem quasi non praesentium
+          maxime hic laborum architecto. Sed eaque voluptatem ad adipisci quia
+          ut repellendus ipsum qui voluptatum voluptatem.
+        </p>
+      </div>
+    </div>
+
+    <div class="pt-65 pb-65">
+      <div class="container editor_container">
+        <div class="section_title text_center mb-50 mt-0">
+          <div class="section_main_title">
+            <h1>NCERT Syllabus <span>Class-Wise</span></h1>
+          </div>
+          <div class="em_bar">
+            <div class="em_bar_bg"></div>
+          </div>
+        </div>
+
+        <div class="infra_slide owl-carousel">
+          <div class="item">
+            <div class="infra_item class_card">
+              <div class="img">
+                <img src="images/recent1.jpg" alt="" />
+              </div>
+              <div class="info">
+                <h5>
+                  <a href="">Grade 1</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="infra_item class_card">
+              <div class="img">
+                <img src="images/recent2.jpg" alt="" />
+              </div>
+              <div class="info">
+                <h5>
+                  <a href="">Grade 2</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="infra_item class_card">
+              <div class="img">
+                <img src="images/recent3.jpg" alt="" />
+              </div>
+              <div class="info">
+                <h5>
+                  <a href="">Grade 3</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="infra_item class_card">
+              <div class="img">
+                <img src="images/recent4.jpg" alt="" />
+              </div>
+              <div class="info">
+                <h5>
+                  <a href="">Grade 4</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="infra_item class_card">
+              <div class="img">
+                <img src="images/recent5.jpg" alt="" />
+              </div>
+              <div class="info">
+                <h5>
+                  <a href="">Grade 5</a>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="call_do_action pt-20 bg-light"
+      style="background-image: url(images/glob-bg.png)"
+    >
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-8">
+            <div class="section_title text_left mb-40 mt-3">
+              <div class="section_sub_title uppercase mb-3">
+                <h6>Enquiry Now</h6>
+              </div>
+              <div class="section_main_title mb-3">
+                <h1>
+                  Say Yes to Learning with <br />
+                  <span>International Curriculum</span>
+                </h1>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+            <div class="call_do_action_button">
+              <div class="button two">
+                <a href="#">Enquiry Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="acction_thumb">
+              <img src="images/shape2.png" alt="" class="w-100" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq_area bg-light pt-65 pb-65">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section_title text_center mb-60 mt-3">
+              <div class="section_main_title">
+                <h1>Frequently Asked Questions</h1>
+              </div>
+              <div class="em_bar">
+                <div class="em_bar_bg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="single_faq mb-4">
+              <div class="single_faq_content">
+                <div class="single_faq_title pb-2">
+                  <h4>How can I pay for this?</h4>
+                </div>
+                <div class="single_faq_text">
+                  <p>
+                    Intrinsicly implement high standards in strategic theme
+                    areas via inexpensive solutions. Assertively conceptualize
+                    prospective intuitive services rather than process-centric.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single_faq mb-4">
+              <div class="single_faq_content">
+                <div class="single_faq_title pb-2">
+                  <h4>Is it possible to pay yearly?</h4>
+                </div>
+                <div class="single_faq_text">
+                  <p>
+                    Assertively implement high standards in strategic theme
+                    areas via inexpensive solutions. Assertively conceptualize
+                    prospective intuitive services rather than relationships.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single_faq mb-4">
+              <div class="single_faq_content">
+                <div class="single_faq_title pb-2">
+                  <h4>Why there no limits the number of messages?</h4>
+                </div>
+                <div class="single_faq_text">
+                  <p>
+                    Intrinsicly implement high standards in strategic theme
+                    areas via inexpensive solutions. Assertively conceptualize
+                    prospective intuitive services rather than process-centric.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single_faq mb-4">
+              <div class="single_faq_content">
+                <div class="single_faq_title pb-2">
+                  <h4>Do you offer discounts on multiple items?</h4>
+                </div>
+                <div class="single_faq_text">
+                  <p>
+                    Dramatically implement high standards in strategic theme
+                    areas via inexpensive solutions. Assertively conceptualize
+                    prospective intuitive services rather than process-centric.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single_faq mb-4">
+              <div class="single_faq_content">
+                <div class="single_faq_title pb-2">
+                  <h4>Is VAT included in plan prices?</h4>
+                </div>
+                <div class="single_faq_text">
+                  <p>
+                    Intrinsicly implement high standards in strategic theme
+                    areas via inexpensive solutions. Assertively conceptualize
+                    prospective intuitive services rather than process-centric.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="single_faq mb-4">
+              <div class="single_faq_content">
+                <div class="single_faq_title pb-2">
+                  <h4>Will I pay more for some features?</h4>
+                </div>
+                <div class="single_faq_text">
+                  <p>
+                    Company implement high standards in strategic theme areas
+                    via inexpensive solutions. Assertively conceptualize
+                    prospective intuitive services rather than process-centric.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="footer-middle pt-50"
+      style="background-image: url(images/call-bg.png)"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4">
+            <div class="widget widgets-company-info">
+              <div class="footer-bottom-logo pb-10">
+                <img src="./images/rosary/logo.png" alt="" />
+              </div>
+              <div class="company-info-desc">
+                <p>
+                  62 years later continues to inspire thousands. We now offer
+                  across 4 campuses, the highest quality of education from
+                  pre-school to Junior college, in two Boards - SSC and ICSE.The
+                  Rosary Schools have always upheld the core value of
+                  challenging the odds and emerging a winner.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="widget widget-nav-menu ps-md-4">
+              <h4 class="widget-title pb-4">Quick Links</h4>
+              <div class="menu-quick-link-container ml-4">
+                <ul id="menu-quick-link" class="menu">
+                  <li>
+                    <a href="index.html"> Home </a>
+                  </li>
+                  <li>
+                    <a href="about_us.html"> About Us </a>
+                  </li>
+                  <li>
+                    <a href="career.html"> Career </a>
+                  </li>
+
+                  <li>
+                    <a href="admission_procedure.html"> Admission </a>
+                  </li>
+                  <li>
+                    <a href="enquiry.html"> Contact Us </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <div class="widget widgets-company-info">
+              <h3 class="widget-title pb-4">Contact Info.</h3>
+              <div class="footer-social-info">
+                <p>
+                  <span>Address :</span> No.14, 3, Dr Baba Saheb Ambedkar Rd,
+                  Camp, Pune, Maharashtra 411001
+                </p>
+              </div>
+              <div class="footer-social-info">
+                <p><span>Phone :</span>+91 902-1557-095</p>
+              </div>
+              <div class="footer-social-info">
+                <p><span>Email :</span>admin@rosaryeducation.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row footer-bottom mt-50 pt-3 pb-1">
+          <div class="col-lg-6 col-md-6">
+            <div class="footer-bottom-content">
+              <div class="footer-bottom-content-copy">
+                <p>
+                  Copyright © 2022 Design &amp; Developed by Rosaryeducation
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="footer-bottom-right">
+              <div class="footer-bottom-right-text">
+                <a class="absod" href="rules_regulations.html"
+                  >RULES & REGULATIONS</a
+                >
+                <!-- <a href="#"> Terms & Conditions</a> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jquery js -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <!-- <script type="text/javascript" src="js/slick-animation.min.js"></script> -->
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <!-- carousel js -->
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <!-- counterup js -->
+    <script type="text/javascript" src="js/jquery.counterup.min.js"></script>
+    <!-- waypoints js -->
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
+    <!-- wow js -->
+    <script type="text/javascript" src="js/wow.js"></script>
+    <!-- imagesloaded js -->
+    <script type="text/javascript" src="js/imagesloaded.pkgd.min.js"></script>
+    <!-- venobox js -->
+    <script type="text/javascript" src="venobox/venobox.js"></script>
+    <!-- ajax mail js -->
+    <script type="text/javascript" src="js/ajax-mail.js"></script>
+    <!--  animated-text js -->
+    <script type="text/javascript" src="js/animated-text.js"></script>
+    <!-- venobox min js -->
+    <script type="text/javascript" src="venobox/venobox.min.js"></script>
+    <!-- isotope js -->
+    <script type="text/javascript" src="js/isotope.pkgd.min.js"></script>
+    <!-- jquery nivo slider pack js -->
+    <script type="text/javascript" src="js/jquery.nivo.slider.pack.js"></script>
+    <!-- jquery meanmenu js -->
+    <script type="text/javascript" src="js/jquery.meanmenu.js"></script>
+    <!-- jquery scrollup js -->
+    <script type="text/javascript" src="js/jquery.scrollUp.js"></script>
+    <!-- theme js -->
+    <script type="text/javascript" src="js/theme.js"></script>
+    <!-- jquery js -->
+  </body>
+</html>
